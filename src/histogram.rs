@@ -77,7 +77,6 @@ impl Histogram {
 }
 
 impl AddAssign for Histogram {
-    //#[allow(clippy::suspicious_op_assign_impl)]
     fn add_assign(&mut self, other: Self) {
         for idx in 0..N {
             self.bars[idx] += other.bars[idx];

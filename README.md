@@ -27,8 +27,27 @@ and if you have yet another question, it's probably for `git blame`.
 
 The source code of **LocMess**, which is totally not messy, may serve as a reasonnable basis for many kinds of transplatformy CLI applications. It's small so there's not much to remove to get to the pure boilerplate.
 
+# Installation
 
+You'll need the rust toolchain, which you may find at https://rustup.rs
 
+Then do
+
+```bash
+cargo install locmess
+```
+
+# Usage
+
+To compute LOC stats on all not gitignored files in the current directory, do
+
+```bash
+locmess
+```
+
+You may also pass a path as argument.
+
+Other options are explained with `locmess --help`.
 
 
 

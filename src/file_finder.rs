@@ -18,9 +18,7 @@ impl FileFinder {
     pub fn new(
         root: PathBuf,
     ) -> Self {
-        Self {
-            root,
-        }
+        Self { root }
     }
     pub fn source_files(self, mandatory_ext: Option<&str>) -> Result<Vec<PathBuf>> {
         if !self.root.is_dir() {
