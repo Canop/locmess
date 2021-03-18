@@ -1,5 +1,6 @@
 use {
     super::*,
+    crossterm::tty::IsTty,
     minimad::{OwningTemplateExpander, TextTemplate},
     termimad::*,
 };
@@ -32,5 +33,5 @@ impl Printer {
 }
 
 fn is_output_piped() -> bool {
-    unsafe { libc::isatty(libc::STDOUT_FILENO) == 0 }
+    !std::io::stdout().is_tty()
 }

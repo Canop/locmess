@@ -312,7 +312,7 @@ dependencies = [
 
 [[package]]
 name = "locmess"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "anyhow",
  "argh",
@@ -320,7 +320,6 @@ dependencies = [
  "cli-log",
  "crossterm",
  "git2",
- "libc",
  "log",
  "minimad",
  "phf",
