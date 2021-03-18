@@ -29,6 +29,8 @@ The source code of **LocMess**, which is totally not messy, may serve as a reaso
 
 # Installation
 
+## With cargo
+
 You'll need the rust toolchain, which you may find at https://rustup.rs
 
 Then do
@@ -36,6 +38,10 @@ Then do
 ```bash
 cargo install locmess
 ```
+
+## From precompiled binaries
+
+You'll find them in https://dystroy.org/locmess/download
 
 # Usage
 
