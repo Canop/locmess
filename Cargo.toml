@@ -1,6 +1,6 @@
 [package]
 name = "locmess"
-version = "0.1.1"
+version = "1.0.0"
 authors = ["dystroy <denys.seguret@gmail.com>"]
 repository = "https://github.com/Canop/locmess"
 description = "look at the mess that are your LOC"
@@ -19,7 +19,6 @@ git2 = { version="0.13", default-features=false }
 log = "0.4"
 minimad = "0.7.0"
 phf = { version = "0.8", features = ["macros"] }
-#rayon = "1.5"
 thiserror = "1.0"
 
 [dependencies.termimad]
